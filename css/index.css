@@ -1,0 +1,15 @@
+@import url("../css/awesome.css");
+@import url("../css/style.css");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.awesome {
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: auto;
+}
