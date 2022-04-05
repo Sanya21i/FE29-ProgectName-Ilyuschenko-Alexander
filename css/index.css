@@ -1,5 +1,6 @@
 @import url("../css/awesome.css");
 @import url("../css/style.css");
+@import url("../css/pricing.css");
 
 * {
 	box-sizing: border-box;
@@ -8,8 +9,19 @@
 	text-decoration: none;
 	list-style: none;
 }
-.awesome {
+.container {
 	max-width: 1170px;
 	padding: 0 15px;
 	margin: auto;
+}
+.title {
+	text-align: center;
+}
+h2 {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	color: #212121;
+	text-transform: uppercase;
 }
