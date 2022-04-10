@@ -7,12 +7,6 @@
 }
 .title__header {
 }
-.line {
-	width: 64px;
-	height: 2px;
-	border: 1px solid #e72424;
-	margin: 34px auto;
-}
 .title__text {
 	font-family: "Open Sans";
 	font-style: normal;
@@ -21,14 +15,15 @@
 	color: #86878b;
 }
 .wap {
-	margin-top: 68px;
+	margin-top: 58px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
 }
 .desc {
 	width: 350px;
-	margin: 0 15px;
+	margin: 10px 15px;
 }
 .icon {
 	width: 70px;

@@ -8,12 +8,7 @@
 }
 .title__header {
 }
-.line {
-	width: 64px;
-	height: 2px;
-	border: 1px solid #e72424;
-	margin: 34px auto;
-}
+
 .title__text {
 	font-family: "Open Sans";
 	font-style: normal;
@@ -28,6 +23,7 @@
 .wrap_body {
 	display: flex;
 	margin: 0 -15px;
+	flex-wrap: wrap;
 }
 .wrap__basic {
 	flex: 0 1 33.333%;
