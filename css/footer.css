@@ -1,0 +1,92 @@
+.footer {
+	background-color: rgba(0, 0, 0, 1);
+	max-height: 100px;
+	padding-top: 30px;
+}
+.container {
+}
+.footer-list {
+	display: flex;
+	justify-content: space-between;
+	width: 320px;
+	align-items: center;
+	margin: 0 auto 18px;
+}
+.footer__items {
+}
+.footer__items i {
+	font-size: 23px;
+	color: grey;
+}
+
+.footer-facebook {
+	transition-duration: 1s;
+}
+.footer-facebook:hover {
+	transform: scale(1.1) translate(3px, 3px);
+	color: rgb(65, 65, 145);
+	transition-duration: 1s;
+}
+
+.footer-twitter {
+	transition-duration: 1s;
+}
+.footer-twitter:hover {
+	transform: scale(1.1) translate(3px, 3px);
+	color: rgb(60, 98, 213);
+	transition-duration: 1s;
+}
+.footer-google-plus {
+	transition-duration: 1s;
+}
+.footer-google-plus:hover {
+	transform: scale(1.1) translate(3px, 3px);
+	color: rgba(235, 56, 24, 0.4);
+	transition-duration: 1s;
+}
+.footer-pinterest {
+	transition-duration: 1s;
+}
+.footer-pinterest:hover {
+	transform: scale(1.1) translate(3px, 3px);
+	color: rgb(255, 0, 0);
+	transition-duration: 1s;
+}
+.footer-instagram {
+	transition-duration: 1s;
+}
+.footer-instagram:hover {
+	transform: scale(1.1) translate(3px, 3px);
+	color: rgb(160, 10, 97);
+	transition-duration: 1s;
+}
+.footer-telegram {
+	transition-duration: 1s;
+}
+
+.footer-telegram:hover {
+	transform: scale(1.1) translate(3px, 3px);
+	color: rgb(0, 153, 255);
+	transition-duration: 1s;
+}
+
+.footer-whatsapp {
+	transition-duration: 1s;
+}
+.footer-whatsapp:hover {
+	transform: scale(1.1) translate(3px, 3px);
+	color: rgb(36, 204, 42);
+	transition-duration: 1s;
+}
+.footer__text {
+	text-align: center;
+	margin-bottom: 18px;
+}
+.footer__text p {
+	font-family: Open Sans;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.5);
+}

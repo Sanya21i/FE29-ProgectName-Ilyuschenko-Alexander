@@ -3,7 +3,11 @@
 @import url("../css/pricing.css");
 @import url("../css/testimonials.css");
 @import url("../css/axure.css");
-
+@import url("../css/footer.css");
+@import url("../css/social.css");
+@import url("../css/header.css");
+@import url("../css/cnt.css");
+@import url("../css/contact_us.css");
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -16,8 +20,17 @@
 	padding: 0 15px;
 	margin: auto;
 }
-.title {
+.wrapper {
 	text-align: center;
+}
+.wrapper__title::after {
+	content: "";
+	display: block;
+	width: 64px;
+	height: 2px;
+
+	background-color: #e72424;
+	margin: 34px auto;
 }
 h2 {
 	font-family: "Raleway";
@@ -26,4 +39,5 @@ h2 {
 	font-size: 36px;
 	color: #212121;
 	text-transform: uppercase;
+	line-height: 42px;
 }

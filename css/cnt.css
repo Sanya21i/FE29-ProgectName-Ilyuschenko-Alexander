@@ -1,0 +1,149 @@
+.cnt {
+	padding: 100px 0;
+	background-image: url(../img/background-ctn.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.cnt::after {
+	content: "";
+	display: block;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.45);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.container {
+}
+.container-cnt {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	position: relative;
+	z-index: 2;
+}
+.cnt-text {
+}
+.cnt-main__title {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 70px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.cnt-main__title span {
+	color: rgb(232, 71, 127);
+}
+.cnt-title {
+	margin-top: 40px;
+	max-width: 545px;
+	color: #ffffff;
+	position: relative;
+}
+.cnt-title::after {
+	content: "";
+	display: block;
+	width: 64px;
+	border: 1px solid #ffffff;
+	margin: 34px 0;
+}
+.cnt-title__text {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: rgba(255, 255, 255, 0.8);
+	max-width: 280px;
+}
+.cnt-text__btn {
+	margin-top: 39px;
+	width: 135px;
+	height: 42px;
+	border: 1px solid #ffffff;
+	text-align: center;
+}
+.cnt-text__btn:hover {
+	transform: scale(1.05);
+}
+.cnt-text__btn p {
+	display: block;
+	padding: 11px 26px;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 20px;
+
+	color: #ffffff;
+}
+.cnt-form {
+	width: 370px;
+	height: 100%;
+	background-color: #fff;
+	border-radius: 8px;
+}
+.cnt-form__content {
+	padding: 15px 60px 60px;
+}
+.cnt-form__content label {
+	display: block;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: #bdbdbd;
+}
+.cnt-form__content input {
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #bdbdbd;
+}
+
+.cnt-form__title {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 27px;
+	color: #333333;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.cnt-form__title span {
+	color: #ec7979;
+}
+.cnt-form__username__item {
+	margin-bottom: 20px;
+}
+.cnt-form__username__item:last-child {
+	margin-bottom: 0px;
+}
+.cnt-form__btn {
+	display: block;
+	height: 53px;
+	background: #ec7979;
+	text-align: center;
+	padding: 15px 0;
+	border-radius: 0 0 8px 8px;
+}
+.cnt-form__btn p {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 20px;
+	color: #ffffff;
+}
+.cnt-form__btn:hover {
+	background-color: rgb(236, 121, 121, 0.9);
+}

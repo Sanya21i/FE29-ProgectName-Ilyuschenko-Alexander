@@ -1,0 +1,38 @@
+.header {
+	background-color: #000000;
+}
+.header-navigation {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 20px 0;
+}
+.header-logo {
+}
+.header-logo p {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 35px;
+	color: #ffffff;
+}
+.header-logo span {
+	color: rgb(232, 71, 127);
+}
+.header-nav {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 490px;
+	align-items: center;
+}
+.header-item {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 20px;
+	text-transform: capitalize;
+	color: rgba(255, 255, 255, 0.7);
+}

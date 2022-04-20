@@ -3,11 +3,11 @@
 }
 .container {
 }
-.title {
+.wrapper {
 }
-.title__header {
+.wrapper__header {
 }
-.title__text {
+.wrapper__text {
 	font-family: "Open Sans";
 	font-style: normal;
 	font-weight: 400;
@@ -24,6 +24,14 @@
 .desc {
 	width: 350px;
 	margin: 10px 15px;
+	transition: 1s;
+}
+.desc:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 1s;
+	padding: 15px;
 }
 .icon {
 	width: 70px;
@@ -34,6 +42,16 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.wap i {
+	font-size: 30px;
+	color: orangered;
+	transition: 1s;
+}
+.wap i:hover {
+	transition: all 1.3s ease 0s;
+	color: rgba(255, 69, 0, 0.7);
+	transform: scale(1.1) rotate(360deg);
 }
 .desc__title {
 	text-align: center;

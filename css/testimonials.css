@@ -1,21 +1,12 @@
 .testimonials {
 	padding: 80px 0 120px 0;
 }
-.title {
+.wrapper {
 }
-.title__header {
-}
-.title__header::after {
-	content: "";
-	display: block;
-	width: 64px;
-	height: 2px;
-	border: 1px solid #e72424;
-	background-color: #e72424;
-	margin: 34px auto;
+.wrapper__title {
 }
 
-.title__text {
+.wrapper__text {
 	font-family: "Open Sans";
 	font-style: normal;
 	font-weight: 400;
@@ -31,25 +22,28 @@
 	justify-content: center;
 }
 
-.commet__wrapper__1 {
+.commet__wrapper {
 	width: 300px;
 	margin: 20px 20px 0 20px;
 }
-.commet__wrapper__text_1 {
-	font-family: "Open Sans";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 19px;
-	align-items: center;
-	text-align: center;
-	color: #86878b;
+.commet__wrapper__text {
 	background: #e2e2e2;
 	border-radius: 7px;
 	padding: 9px 23px;
 	position: relative;
 }
-.commet__wrapper__text_1 ::after {
+.commet__wrapper__text a {
+	text-decoration: none;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: center;
+	color: #86878b;
+}
+
+.commet__wrapper__text ::after {
 	content: "";
 	display: block;
 	width: 0;
@@ -62,12 +56,13 @@
 	bottom: -14px;
 	left: 50px;
 }
-.wrapper__username_1 {
+
+.wrapper__username {
 	display: flex;
 	justify-content: space-evenly;
 	margin-top: 22px;
 }
-.wrapper__username__pic_1 {
+.wrapper__username__pic {
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
@@ -76,17 +71,20 @@
 	align-items: center;
 	overflow: hidden;
 }
-.wrapper__username__pic_1 img {
-	height: 120%;
+.wrapper__username__pic:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 10px rgba(73, 68, 68, 0.4);
 }
-.wrapper__username__surname_1 {
+.wrapper__username__pic img {
+	height: 100%;
+}
+.wrapper__username__surname {
 	text-align: right;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	padding: 8px 0 5px 0;
+	justify-content: space-around;
 }
-.username__surname_1 {
+.username__surname {
 	font-family: "Open Sans";
 	font-style: normal;
 	font-weight: 700;
@@ -96,7 +94,7 @@
 	text-align: right;
 	color: #333333;
 }
-.username__position_1 {
+.username__position {
 	font-family: "Open Sans";
 	font-style: normal;
 	font-weight: 400;

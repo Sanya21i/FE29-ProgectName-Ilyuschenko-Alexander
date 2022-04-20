@@ -1,0 +1,116 @@
+.social {
+	background-color: rgba(248, 239, 239, 1);
+	padding: 14px 0;
+}
+.container {
+}
+.social__body {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.social__title {
+	max-width: 355px;
+}
+.social__title h3 {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 27px;
+}
+.social__title__text {
+	margin-top: 14px;
+}
+.social__title__text p {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: #86878b;
+}
+.social__icon {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 684px;
+	align-items: center;
+}
+.social__icon i {
+	font-size: 42px;
+	color: gray;
+	margin: 0 auto;
+}
+.social__icon__item {
+}
+.icon__facebook {
+}
+.social-facebook {
+	transition-duration: 1s;
+}
+.social-facebook:hover {
+	transform: scale(1.2) translate(3px, 3px);
+	color: rgb(65, 65, 145);
+	transition-duration: 1s;
+}
+.icon__twitter {
+}
+.social-twitter {
+	transition-duration: 1s;
+}
+.social-twitter:hover {
+	transform: scale(1.2) translate(3px, 3px);
+	color: rgb(60, 98, 213);
+	transition-duration: 1s;
+}
+.icon__google {
+}
+.social-google-plus {
+	transition-duration: 1s;
+}
+.social-google-plus:hover {
+	transform: scale(1.2) translate(3px, 3px);
+	color: rgba(235, 56, 24, 0.4);
+	transition-duration: 1s;
+}
+.icon__pinterest {
+}
+.social-pinterest {
+	transition-duration: 1s;
+}
+.social-pinterest:hover {
+	transform: scale(1.2) translate(3px, 3px);
+	color: rgb(255, 0, 0);
+	transition-duration: 1s;
+}
+.icon__instagram {
+}
+.social-instagram {
+	transition-duration: 1s;
+}
+.social-instagram:hover {
+	transform: scale(1.2) translate(3px, 3px);
+	color: rgb(160, 10, 97);
+	transition-duration: 1s;
+}
+.icon__telegram {
+}
+.social-telegram {
+	transition-duration: 1s;
+}
+.social-telegram:hover {
+	transform: scale(1.2) translate(3px, 3px);
+	color: rgb(0, 153, 255);
+	transition-duration: 1s;
+}
+.icon__whatsapp {
+}
+.social-whatsapp {
+	transition-duration: 1s;
+}
+.social-whatsapp:hover {
+	transform: scale(1.2) translate(3px, 3px);
+	color: rgb(36, 204, 42);
+	transition-duration: 1s;
+}
