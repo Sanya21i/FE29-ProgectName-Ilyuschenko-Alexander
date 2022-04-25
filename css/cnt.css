@@ -28,7 +28,7 @@
 }
 .cnt-text {
 }
-.cnt-main__title {
+.cnt-text__item {
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 400;
@@ -37,7 +37,7 @@
 	color: #ffffff;
 	text-transform: uppercase;
 }
-.cnt-main__title span {
+.cnt-text__item span {
 	color: rgb(232, 71, 127);
 }
 .cnt-title {
@@ -45,6 +45,10 @@
 	max-width: 545px;
 	color: #ffffff;
 	position: relative;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
 }
 .cnt-title::after {
 	content: "";
@@ -89,6 +93,7 @@
 	height: 100%;
 	background-color: #fff;
 	border-radius: 8px;
+	overflow: hidden;
 }
 .cnt-form__content {
 	padding: 15px 60px 60px;
@@ -134,7 +139,6 @@
 	background: #ec7979;
 	text-align: center;
 	padding: 15px 0;
-	border-radius: 0 0 8px 8px;
 }
 .cnt-form__btn p {
 	font-family: "Open Sans";
